@@ -6,7 +6,7 @@ export class AppController {
 
   constructor(private authService: AuthService) {}
 
-  @Get([ '', 'ping' ])
+  @Get([ '', 'pingtest' ])
   healthCheck(): any {
     return {
       statusCode: HttpStatus.OK,
