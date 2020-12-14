@@ -1,0 +1,13 @@
+# outputs
+dist
+node_modules
+
+# tests
+coverage
+test
+.nyc_output
+
+# IDE
+.idea
+.eslintrc.js
+.prettierrc
